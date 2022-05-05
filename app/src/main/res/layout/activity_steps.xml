@@ -69,22 +69,19 @@
         android:layout_marginTop="18dp"
         android:background="@drawable/button"
         android:backgroundTint="@color/dartGrey"
-        app:layout_constraintEnd_toEndOf="@+id/view10"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/view10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view10" />
 
     <View
         android:id="@+id/view10"
         android:layout_width="376dp"
         android:layout_height="98dp"
-        android:layout_marginStart="17dp"
-        android:layout_marginTop="41dp"
-        android:layout_marginEnd="17dp"
+        android:layout_marginTop="40dp"
         android:background="@drawable/button"
         android:backgroundTint="@color/dartGrey"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.457"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/view9" />
 
@@ -129,15 +126,13 @@
         android:layout_width="376dp"
         android:layout_height="98dp"
         android:layout_marginTop="18dp"
-        android:layout_marginEnd="17dp"
         android:layout_marginBottom="24dp"
         android:background="@drawable/button"
         android:backgroundTint="@color/dartGrey"
         android:onClick="onClickBrowserActivity"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/view5"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/view5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view5" />
 
     <TextView
